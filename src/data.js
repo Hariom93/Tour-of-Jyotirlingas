@@ -1,0 +1,88 @@
+const data = [
+	{
+		id: 1,
+		name: "1. Kedarnath",
+		info: "Shri  Kedarnath Temple Committee (BKTC) was constituted as per 1939 Act. Shri Kedarnath Temple, dedicated to Lord Shiva, is the eleventh out of twelve Jyotirlingas of India, whie Shri kedarnath Temple is dedicated to Lord Vishnu.",
+		image: "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRU08vLiuiNWFo_oDrsrWf4azWUOsCg6rDUAUacDTpCX8aPaqcG8ZNq580EH5uhl5ezoNXxsQdhqWDPrjHtiQjoY_22-GStRqa1_oB8aA",
+		price: "35,758",
+	},
+	{
+		id: 2,
+		name: "2. Somnath",
+		info: `According to popular belief, Somnath Temple was built by the Moon God to show gratitude towards Lord Shiva. The temple was attacked and looted multiple times in the past but has since then been restored to its true glory..`,
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Somanth_Temple_l_667_1000.jpg",
+		price: "82,560",
+	},
+	{
+		id: 3,
+		name: "3. Sri Bhramaramba Mallikarjuna Temple",
+		info: " Famous as one of the 12 Jyotirlingas, Mallikarjuna Swamy Temple also holds the distinction of being a Shaktipeeth. Perched atop the Nallamala Hills.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/img/mmt/activities/m_Bhramaramba_Mallikarjuna_Swamy_varla_Devasthanam_l_333_550.jpg",
+		price: "29,695",
+	},
+	{
+		id: 4,
+		name: "4. Shree Mahakaleshwar Temple Ujjain",
+		info: "A revered holy site for Hindus, the temple is dedicated to Lord Shiva. The temple is architected in Chalukya & Maratha styles and houses a Shiva Lingam which is believed to be Swayambhu (self-manifested)..",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/img/mmt/activities/m_Mahakaleshwar_jyotirlinga_ujjain_img1_p_1090_818.jpg",
+		price: "31,095",
+	},
+	{
+		id: 5,
+		name: "5. shri omkareshwar jyotirlinga temple Omkareshwar",
+		info: "Among the twelve jyotirlingas all over the world, Omkareshwar is the fourth highly revered jyotirlinga. Shri Omkareshwar Temple is located on the banks of the holy river Narmada and known for its majestic Sabha Mandal or the meeting hall.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Omkareshwar_Temple_l_779_1000.jpg",
+		price: "78,595",
+	},
+	{
+		id: 6,
+		name: "6. Baidyanath Dham Deoghar",
+		info: "As one of India's twelve Jyotirlingams, the Baidyanath Dham is a popular tourist site in the state of Jharkhand. Dedicated to Lord Shiva, this temple complex boasts 21 temples.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_baidyanath_dham_l_563_1000.jpg",
+		price: "68,595",
+	},
+	{
+		id: 7,
+		name: "7. Bhimashankar Temple Karjat",
+		info: "Located in the village of Bhavagiri, Bhimashankar is a revered pilgrimage site where at 1,005 metres is one of the 12 jyotirlingas of Lord Shiva in India.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Bhimashankar_Temple_l_750_1000.jpg",
+		price: "68,595",
+	},
+	{
+		id: 8,
+		name: "8. Arulmigu Ramanathaswamy Rameshwaram",
+		info: "Arulmigu Ramanathaswamy Temple is a renowned Hindu temple located on the island of Rameswaram in the state of Tamil Nadu, India. It is dedicated to Lord Shiva and is considered one of the twelve Jyotirlinga shrines, which are believed to be the most sacred abodes of Lord Shiva. The temple is an important pilgrimage site for devotees seeking spiritual blessings and is known for its architectural grandeur and historical significance.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Ramanathaswamy_Temple_l_636_1000.jpg",
+		price: "68,595",
+	},
+	{
+		id: 9,
+		name: "9. Nageshwar Jyotirlinga Dwarka",
+		info: "Also known as Darukavana in the Shiv Purana, Nageshwar Jyotirlinga is about 20 minutes from the Dwarka city centre. The name Darukuvana originates from the Sanskrit word for deodar forests.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Nageshwar_Jyotirlinga_l_667_1000.jpg",
+		price: "68,595",
+	},
+	{
+		id: 10,
+		name: "10. Shri Kashi Vishwanath Temple Varanasi",
+		info: "The Shri Kashi Vishwanath Temple is one of the holiest Hindu temples dedicated to Lord Shiva and is considered one of the twelve Jyotirlingas. The original temple was believed to have been built around 1490 by Maharani Ahilyabai Holkar of Indore. However, the current structure of the temple was constructed in 1780 by the Maratha queen, Maharani Ahilyabai Holkar of Indore.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Kashi_Vishwanath_temple_l_750_1000.jpg",
+		price: "68,595",
+	},
+	{
+		id: 11,
+		name: "11. Trimbakeshwar Temple Igatpuri",
+		info: "Nestled on the foothills of Brahmagiri Mountain Range, this 18th century temple is dedicated to Lord Shiva and features one of the twelve Jyotirlingas.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/Igatpuri/mmt/activities/m_Trimbakeshwar%20Temple-1_l_418_557.jpg",
+		price: "68,595",
+	},
+	{
+		id: 12,
+		name: "12. Grishneshwar Temple Jyotirlinga, Aurangabad",
+		info: "Nestled on the foothills of Brahmagiri Mountain Range, this 18th century temple is dedicated to Lord Shiva and features one of the twelve Jyotirlingas.",
+		image: "https://hblimg.mmtcdn.com/content/hubble/img/jyotirlingasinindaimg/mmt/destination/m_Grishneshwar_Temple_l_665_1000.jpg",
+		price: "68,595",
+	},
+];  
+
+export default data;
